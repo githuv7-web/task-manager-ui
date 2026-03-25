@@ -5,19 +5,19 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 1. Miembros del Equipo y Roles
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
-| [Nombre del Aprendiz 1] | Líder (Arquitecto) | `@usuario1` |
+| [Fabian Felipe Delgado] | Líder (Arquitecto) | `githuv7-web` |
 | [Nombre del Aprendiz 2] | Desarrollador | `@usuario2` |
 | [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
 
 ## 2. Canales de Comunicación
 Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
-* **Comunicación Oficial y Archivos:** [Ej: correo corporativo / Microsoft Teams]
-* **Urgencias o bloqueos rápidos:** [Ej: Grupo de WhatsApp]
+* **Comunicación Oficial y Archivos:** [Grupo de WhatsApp / correo electronico]
+* **Urgencias o bloqueos rápidos:** [ Grupo de WhatsApp]
 * **Gestión de Tareas y Código:** Estrictamente a través de los *Issues* y *Pull Requests* de GitHub. (No se revisa código por WhatsApp).
 
 ## 3. Horarios y Sincronización
-* **Reuniones de Sincronización (Daily Stand-up):** Nos reuniremos los días [Días de la semana] a las [Hora] de forma [Presencial/Virtual].
-* **Tiempo máximo de respuesta:** Nos comprometemos a responder mensajes del equipo en un máximo de [Ej: 4 horas] durante el horario hábil.
+* **Reuniones de Sincronización (Daily Stand-up):** Nos reuniremos los días [miercoles] a las [11.00 pm] de forma [Presencial/Virtual].
+* **Tiempo máximo de respuesta:** Nos comprometemos a responder mensajes del equipo en un máximo de [4 horas] durante el horario hábil.
 
 ## 4. Reglas de Desarrollo
 * **Prohibido el "Push" a Main:** Nadie, bajo ninguna circunstancia, subirá código directamente a `main` o `develop` sin pasar por un Pull Request.
