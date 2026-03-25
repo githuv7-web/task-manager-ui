@@ -1,4 +1,4 @@
-# PROYECTO BASE: [Task Manager U] - Software Factory SENA
+# PROYECTO BASE: [task-manager-ui] - Software Factory SENA
 
 **Metodología:** _"Del Requerimiento al Producto"_
 
