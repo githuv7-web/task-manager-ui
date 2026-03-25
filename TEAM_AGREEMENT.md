@@ -1,42 +1,32 @@
 # Acuerdo de Trabajo del Equipo (Team Agreement)
 
-Este documento establece las reglas de convivencia, comunicación y estándares de calidad de nuestra célula ágil. Al participar en este repositorio, todos los miembros del equipo aceptamos y nos comprometemos a cumplir estos acuerdos.
+Este documento establece las reglas de convivencia, comunicación y estándares de calidad de nuestra célula ágil.
 
 ## 1. Miembros del Equipo y Roles
-
-| Nombre                     | Rol                | Usuario de GitHub      |
-| :------------------------- | :----------------- | :--------------------- |
-| [Fabian Felipe Delgado]    | Líder (Arquitecto) | `githuv7-web`          |
-| [Marlon Duban Ojeda Jaimes]| Desarrollador      | `marlonjaimes62-lang`  |
-| [Nombre del Aprendiz 3]    | Desarrollador      | `@usuario3`            |
+| Nombre | Rol | Usuario de GitHub |
+| :--- | :--- | :--- |
+| Fabian Felipe Delgado | Líder (Arquitecto) | `githuv7-web` |
+| Marlon Duban Ojeda Jaimes | Desarrollador | `marlonjaimes62-lang` |
+| [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
 
 ## 2. Canales de Comunicación
-
-Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
-
-- **Comunicación Oficial y Archivos:** [Grupo de WhatsApp / correo electronico]
-- **Urgencias o bloqueos rápidos:** [Grupo de WhatsApp]
-- **Gestión de Tareas y Código:** Estrictamente a través de los _Issues_ y _Pull Requests_ de GitHub. (No se revisa código por WhatsApp).
+* **Comunicación Oficial y Archivos:** Grupo de WhatsApp / Correo electrónico.
+* **Urgencias o bloqueos rápidos:** Grupo de WhatsApp.
+* **Gestión de Tareas y Código:** Estrictamente a través de los *Issues* y *Pull Requests* de GitHub.
 
 ## 3. Horarios y Sincronización
-
-- **Reuniones de Sincronización (Daily Stand-up):** Nos reuniremos los días [miércoles] a las [11:00 pm] de forma [Presencial/Virtual].
-- **Tiempo máximo de respuesta:** Nos comprometemos a responder mensajes del equipo en un máximo de [4 horas] durante el horario hábil.
+* **Reuniones de Sincronización (Daily Stand-up):** Miércoles a las 11:00 PM de forma Virtual.
+* **Tiempo máximo de respuesta:** Máximo de 4 horas durante el horario hábil.
 
 ## 4. Reglas de Desarrollo
-
-- **Prohibido el "Push" a Main:** Nadie, bajo ninguna circunstancia, subirá código directamente a `main` o `develop` sin pasar por un Pull Request.
-- **Regla del Bloqueo (Timeboxing):** Si un desarrollador lleva más de [2 horas] atascado en el mismo error, **debe** levantar la mano y pedir ayuda al equipo.
-- **Calidad antes que velocidad:** Ningún código se envía a revisión si tiene `console.log`, errores en la terminal, o si rompe el diseño en dispositivos móviles.
+* **Prohibido el "Push" a Main:** Nadie subirá código directamente a `main` o `develop` sin pasar por un Pull Request.
+* **Regla del Bloqueo (Timeboxing):** Si un desarrollador lleva más de 2 horas atascado, debe pedir ayuda.
+* **Calidad antes que velocidad:** No se envía código con `console.log` o errores.
 
 ## 5. Resolución de Conflictos y Ausencias
-
-Somos profesionales en formación. Si surgen problemas, actuaremos así:
-
-1. **Ausencias:** Si alguien no puede trabajar por fuerza mayor, debe avisar por el canal oficial con al menos [12 horas] de anticipación.
-2. **Incumplimiento:** Si un miembro del equipo no entrega sus tareas en la fecha del _Milestone_ sin justificación, el Líder reportará la situación formalmente.
-3. **Decisiones Técnicas:** En caso de desacuerdo sobre cómo programar algo, se debatirá con argumentos técnicos y la decisión final será tomada por el **Líder (Arquitecto)**.
+1. **Ausencias:** Avisar con al menos 12 horas de anticipación.
+2. **Incumplimiento:** Reporte formal si no se entregan tareas en el Milestone.
+3. **Decisiones Técnicas:** La decisión final será tomada por el **Líder (Arquitecto)**.
 
 ---
-
-> **Firma Digital:** La creación de este archivo y los commits asociados a él representan la firma electrónica de aceptación de todos los integrantes de este equipo.
+> **Firma Digital:** La creación de este archivo representa la aceptación de todos los integrantes.
