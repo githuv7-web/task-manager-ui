@@ -1,8 +1,11 @@
-<<<<<<< HEAD
+
 # PROYECTO BASE: [task-manager-ui] - Software Factory SENA
 =======
 # PROYECTO BASE: [Task Manager U] - Software Factory SENA
->>>>>>> cb34da442e4129c9baf3e5048f4a5854e554dbcb
+
+=======
+# PROYECTO BASE: [task-manager-ui] - Software Factory SENA
+
 
 **Metodología:** _"Del Requerimiento al Producto"_
 

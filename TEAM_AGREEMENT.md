@@ -6,6 +6,9 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 
 | Fabian Felipe Delgado | Líder (Arquitecto) | `githuv7-web` |
 | Marlon Duban Ojeda Jaimes | Desarrollador | `marlonjaimes62-lang` |
 | [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
@@ -18,6 +21,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 3. Horarios y Sincronización
 * **Reuniones de Sincronización (Daily Stand-up):** Miércoles a las 11:00 PM de forma Virtual.
 * **Tiempo máximo de respuesta:** Máximo de 4 horas durante el horario hábil.
+<<<<<<< HEAD
 =======
 | [Fabian Felipe Delgado] | Líder (Arquitecto) | `githuv7-web` |
 | [Nombre del Aprendiz 2] | Desarrollador | `@usuario2` |
@@ -32,7 +36,6 @@ Para mantener el orden y separar lo profesional de lo personal, usaremos los sig
 ## 3. Horarios y Sincronización
 * **Reuniones de Sincronización (Daily Stand-up):** Nos reuniremos los días [miercoles] a las [11.00 pm] de forma [Presencial/Virtual].
 * **Tiempo máximo de respuesta:** Nos comprometemos a responder mensajes del equipo en un máximo de [4 horas] durante el horario hábil.
->>>>>>> cb34da442e4129c9baf3e5048f4a5854e554dbcb
 
 ## 4. Reglas de Desarrollo
 * **Prohibido el "Push" a Main:** Nadie subirá código directamente a `main` o `develop` sin pasar por un Pull Request.
