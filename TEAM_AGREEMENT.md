@@ -7,7 +7,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 | :--- | :--- | :--- |
 | Fabian Felipe Delgado | Líder (Arquitecto) | `githuv7-web` |
 | Marlon Duban Ojeda Jaimes | Desarrollador | `marlonjaimes62-lang` |
-| [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
+| [Nombre del Aprendiz 3] | Desarrollador | `JoseDaniel-14` |
 
 ## 2. Canales de Comunicación
 * **Comunicación Oficial y Archivos:** Grupo de WhatsApp / Correo electrónico.
