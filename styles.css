@@ -231,6 +231,38 @@ main h2 {
     background-color: #D4EDDA;
     color: #155724;
 }
+/* MODIFICACION MARLON OJEDA ARREGLO DE CARD CON BAJO DISEÑO */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    box-shadow: var(--sombra);
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--borde-suave);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
 
 /* 
    FOOTER
@@ -242,6 +274,7 @@ footer {
     padding: 15px;
     margin-top: auto;
 }
+
 
 /* 
    RESPONSIVE 
