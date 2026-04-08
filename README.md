@@ -1,8 +1,6 @@
 
 # PROYECTO BASE: [Task Manager U] - Software Factory SENA
 
-
-
 **Metodología:** _"Del Requerimiento al Producto"_
 
 Este repositorio constituye la base técnica y administrativa para el desarrollo del proyecto. No es solo un contenedor de código, es una simulación de un entorno profesional donde se aplican estándares de calidad, gestión ágil y flujos de trabajo colaborativos reales.

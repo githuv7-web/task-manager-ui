@@ -5,7 +5,6 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 1. Miembros del Equipo y Roles
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
-
 | Fabian Felipe Delgado | Líder (Arquitecto) | `githuv7-web` |
 | Marlon Duban Ojeda Jaimes | Desarrollador | `marlonjaimes62-lang` |
 | Jose Daniel Niño Galvis | Desarrollador | `JoseDaniel-14` |
@@ -18,7 +17,6 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 3. Horarios y Sincronización
 * **Reuniones de Sincronización (Daily Stand-up):** Miércoles a las 11:00 PM de forma Virtual.
 * **Tiempo máximo de respuesta:** Máximo de 4 horas durante el horario hábil.
-
 
 
 ## 4. Reglas de Desarrollo
