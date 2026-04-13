@@ -28,12 +28,12 @@
         <input type="password" id="password" placeholder="••••••••" />
       </div>
 
+      <!-- 🔥 BOTÓN ACTUALIZADO -->
       <div class="botones">
-  <button class="button" onclick="window.location.href='crear-tarea.html'">
-    Iniciar sesión
-  </button>
-</div>
-
+        <button class="button" onclick="validarLogin()">
+          Iniciar sesión
+        </button>
+      </div>
 
       <p style="margin-top:15px; text-align:center;">
         ¿No tienes cuenta? <a href="#">Regístrate aquí</a>
@@ -41,6 +41,21 @@
 
     </section>
   </div>
+
+  <!-- 🔥 SCRIPT AGREGADO -->
+  <script>
+    function validarLogin() {
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (email === "" || password === "") {
+        alert("Por favor, completa todos los campos antes de continuar.");
+        return;
+      }
+
+      window.location.href = "crear-tarea.html";
+    }
+  </script>
 
 </body>
 
