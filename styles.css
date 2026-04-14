@@ -1,0 +1,354 @@
+
+ /* Estas son las variables globales de color que se vana utilizar muchachos.  */
+
+:root {
+    --color-primario: #4A90D9;
+    --color-secundario: #2C3E50;
+    --color-fondo: #F5F6FA;
+    --color-blanco: #FFFFFF;
+    --color-texto: #333333;
+    --color-texto-suave: #777777;
+    --color-exito: #27AE60;
+    --color-peligro: #E74C3C;
+    --color-borde: #DDDDDD;
+    --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --sombra: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --radio-borde: 8px;
+}
+
+/* 
+  Y este es el estilo base.
+   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radio-borde);
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--color-secundario);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;  
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio-borde);
+    font-size: 16px;
+    font-family: var(--fuente-principal);
+}
+
+
+
+/* 
+   NAVEGACIÓN
+    */
+header {
+    background-color: var(--color-secundario);
+    padding: 15px 30px;
+    color: var(--color-blanco);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--color-blanco);
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--color-blanco);
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: var(--color-primario);
+}
+
+/* 
+   PÁGINAS CENTRADAS (LOGIN Y REGISTRO)
+   */
+.pagina-centrada {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 40px 20px;
+}
+
+.contenedor-form section {
+    background-color: var(--color-blanco);
+    padding: 40px;
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra);
+    width: 100%;
+    max-width: 450px;
+}
+
+.contenedor-form h2 {
+    margin-bottom: 10px;
+    color: var(--color-secundario);
+}
+
+.contenedor-form p {
+    margin-bottom: 20px;
+    color: var(--color-texto-suave);
+}
+
+/* 
+   FORMULARIOS
+   */
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--color-secundario);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio-borde);
+    font-size: 16px;
+    font-family: var(--fuente-principal);
+}
+
+.botones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*
+   GRID DE TAREAS (DASHBOARD)
+  */
+main {
+    padding: 30px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    color: var(--color-secundario);
+}
+
+.grid-tareas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta h3 {
+    color: var(--color-secundario);
+}
+
+.tarjeta p {
+    color: var(--color-texto-suave);
+    font-size: 14px;
+}
+
+.tarjeta:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.estado {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.pendiente {
+    background-color: #FFF3CD;
+    color: #856404;
+}
+
+.en-progreso {
+    background-color: #CCE5FF;
+    color: #004085;
+}
+
+.completado {
+    background-color: #D4EDDA;
+    color: #155724;
+}
+/* MODIFICACION MARLON OJEDA ARREGLO DE CARD CON BAJO DISEÑO */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    box-shadow: var(--sombra);
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--borde-suave);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+
+/* 
+   FOOTER
+    */
+footer {
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+/*DETALLE DE TAREA 
+   */
+
+.task-card {
+    background-color: var(--color-blanco) !important;
+    padding: 30px;
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra);
+    border: 1px solid var(--color-borde);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.task-card .task-header {
+    background-color: transparent !important; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-fondo);
+    padding: 0 0 15px 0 !important; 
+    color: var(--color-texto) !important;
+}
+
+.task-card .task-title {
+    font-size: 1.8rem;
+    color: var(--color-secundario);
+    margin: 0;
+}
+
+/* Corregimos el footer oscuro */
+.task-card .task-footer {
+    background-color: transparent !important;
+    color: var(--color-texto) !important;
+    margin-top: 30px;
+    padding: 20px 0 0 0 !important;
+    border-top: 1px solid var(--color-borde);
+    text-align: left !important;
+}
+
+.task-card .task-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.task-card .btn {
+    margin-top: 0 !important; 
+    width: 100%;
+}
+
+.task-card .btn-secondary {
+    background-color: var(--color-texto-suave) !important;
+}
+
+/* 
+   RESPONSIVE 
+    */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid-tareas {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-form section {
+        padding: 20px;
+    }
+}

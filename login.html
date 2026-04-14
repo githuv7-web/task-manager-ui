@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión</title>
+
+  <!-- Conectar tu CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="pagina-centrada">
+
+  <div class="contenedor-form">
+    <section>
+
+      <h2>Bienvenido de nuevo</h2>
+      <p>Ingresa a tu cuenta para continuar</p>
+
+      <div class="campo">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="tu@correo.com" />
+      </div>
+
+      <div class="campo">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" placeholder="••••••••" />
+      </div>
+
+      
+      <div class="botones">
+        <button class="button" onclick="validarLogin()">
+          Iniciar sesión
+        </button>
+      </div>
+
+      <p style="margin-top:15px; text-align:center;">
+        ¿No tienes cuenta? <a href="#">Regístrate aquí</a>
+      </p>
+
+    </section>
+  </div>
+
+  
+  <script>
+    function validarLogin() {
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (email === "" || password === "") {
+        alert("Por favor, completa todos los campos antes de continuar.");
+        return;
+      }
+
+      window.location.href = "crear-tarea.html";
+    }
+  </script>
+
+</body>
+
+</html>
